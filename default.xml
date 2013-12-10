@@ -1,8 +1,11 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
 
-      <remote  name="aosp"
-               fetch=".." />
+      <remote name="aosp"
+               fetch="https://android.googlesource.com/" />
+      <remote name="github"
+               fetch="git://github.com/" />
+           
       <default revision="refs/tags/android-4.4_r1.2"
                remote="aosp"
                sync-j="4" />
@@ -127,6 +130,8 @@
       <project path="external/jsr305" name="platform/external/jsr305" />
       <project path="external/junit" name="platform/external/junit" />
       <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+      <project path="external/koush/Superuser" name="witxo/witxo_Superuser" remote="github" revision="master" />
+      <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
       <project path="external/libcap-ng" name="platform/external/libcap-ng" />
       <project path="external/libffi" name="platform/external/libffi" />
       <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
