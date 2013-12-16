@@ -11,7 +11,7 @@
                remote="aosp"
                sync-j="4" />
 
-      <project path="build" name="witxo/platform_build" groups="pdk" remote="github">
+      <project path="build" name="witxo/platform_build" groups="pdk" remote="github" revision="rev1">
         <copyfile src="core/root.mk" dest="Makefile" />
       </project>
       <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -130,7 +130,7 @@
       <project path="external/jsr305" name="platform/external/jsr305" />
       <project path="external/junit" name="platform/external/junit" />
       <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-      <project path="external/koush/Superuser" name="witxo/witxo_Superuser" remote="github" revision="master" />
+      <project path="external/koush/Superuser" name="witxo/witxo_Superuser" remote="github" revision="rev1" />
       <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />      
       <project path="external/libcap-ng" name="platform/external/libcap-ng" />
       <project path="external/libffi" name="platform/external/libffi" />
@@ -398,5 +398,5 @@
       <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
       <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
       <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-      <project path="vendor" name="witxo/nexus4_vendor" remote="github" />
+      <project path="vendor" name="witxo/nexus4_vendor" remote="github" revision="rev1"/>
     </manifest>
