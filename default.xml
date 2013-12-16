@@ -1,11 +1,12 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
 
-      <remote name="aosp"
-               fetch="https://android.googlesource.com/" />
+      <remote  name="aosp"
+               fetch=".." />
+               
       <remote name="github"
                fetch="git://github.com/" />
-           
+               
       <default revision="refs/tags/android-4.4.2_r1"
                remote="aosp"
                sync-j="4" />
@@ -27,11 +28,10 @@
       <project path="developers/samples/android" name="platform/developers/samples/android" />
       <project path="development" name="platform/development" />
       <project path="device/common" name="device/common" />
-      <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
       <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-      <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />      
       <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
       <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
+      <project path="device/sample" name="device/sample" groups="pdk" />
       <project path="docs/source.android.com" name="platform/docs/source.android.com" />
       <project path="external/aac" name="platform/external/aac" groups="pdk" />
       <project path="external/android-clat" name="platform/external/android-clat" />
@@ -131,7 +131,7 @@
       <project path="external/junit" name="platform/external/junit" />
       <project path="external/kernel-headers" name="platform/external/kernel-headers" />
       <project path="external/koush/Superuser" name="witxo/witxo_Superuser" remote="github" revision="master" />
-      <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
+      <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />      
       <project path="external/libcap-ng" name="platform/external/libcap-ng" />
       <project path="external/libffi" name="platform/external/libffi" />
       <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
@@ -277,8 +277,8 @@
       <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
       <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
       <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-      <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" source="aosp" />
-      <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" source="aosp" />
+      <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
+      <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
       <project path="libcore" name="platform/libcore" />
       <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
       <project path="ndk" name="platform/ndk" />
@@ -351,7 +351,7 @@
       <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
       <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
       <project path="pdk" name="platform/pdk" groups="pdk" />
-           <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
+      <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
       <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
       <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" />
       <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux" />
