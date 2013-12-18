@@ -228,7 +228,7 @@
       <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
       <project path="external/zxing" name="platform/external/zxing" />
       <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-      <project path="frameworks/base" name="witxo/platform_frameworks_base" remote="github" revision="rev1"/>
+      <project path="frameworks/base" name="platform/framework/base" />
       <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
       <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
       <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -381,7 +381,7 @@
       <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
       <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
       <project path="sdk" name="platform/sdk" />
-      <project path="system/core" name="platform/system/core" groups="pdk" revision="master"/>
+      <project path="system/core" name="platform/system/core" groups="pdk"/>
       <project path="system/extras" name="witxo/witxo_extras" groups="pdk" remote="github" revision="rev1"/>
       <project path="system/media" name="platform/system/media" groups="pdk" />
       <project path="system/netd" name="platform/system/netd" groups="pdk" />
