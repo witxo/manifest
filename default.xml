@@ -11,7 +11,7 @@
                remote="aosp"
                sync-j="4" />
 
-      <project path="build" name="witxo/platform_build" groups="pdk" remote="github" revision="rev1">
+      <project path="build" name="platform/build" groups="pdk" >
         <copyfile src="core/root.mk" dest="Makefile" />
       </project>
       <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
