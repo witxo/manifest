@@ -316,7 +316,7 @@
       <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
       <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
       <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-      <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+      <project path="packages/apps/Settings" name="witxo/settings" remote="github" revision="rev1"/>
       <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
       <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
       <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -398,5 +398,6 @@
       <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
       <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
       <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+      <project path="vendor/lge/mako" name="witxo/vendor_lge_mako" remote="github"  />
       <project path="vendor" name="witxo/nexus4_vendor" remote="github" revision="rev1"/>
     </manifest>
