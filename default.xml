@@ -398,6 +398,6 @@
       <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
       <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
       <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-      <project path="vendor/lge/mako" name="witxo/vendor_lge_mako" remote="github"  />
+      <project path="vendor/lge/mako" name="witxo/vendor_lge_mako" remote="github"  revision="rev1"/>
       <project path="vendor" name="witxo/nexus4_vendor" remote="github" revision="rev1"/>
     </manifest>
